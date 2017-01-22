@@ -1,6 +1,6 @@
 {
   "name": "anitomy-js",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "main": "build/Release/anitomy-js",
   "description": "Node.js wrapper for anitomy",
   "license": "MIT",
@@ -22,9 +22,12 @@
     "anitomy-js"
   ],
   "dependencies": {
+    "cmake-js": "^3.4.0",
     "nan": "^2.0.0"
   },
   "scripts": {
+    "build": "cmake-js build",
+    "install": "cmake-js compile",
     "test": "./node_modules/.bin/mocha"
   },
   "devDependencies": {

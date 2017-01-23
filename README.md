@@ -13,9 +13,10 @@
 With [npm](http://npmjs.org) do:
 
 ```
-npm install anitomy-js
+npm install https://github.com/tofuness/anitomy.git
 ```
-*Anitomy-js* builds it's dependencies upon installation. Please refer to the [node-gyp documentation](https://github.com/nodejs/node-gyp#installation) if you're having trouble with the build.
+
+*Anitomy-js* builds its dependencies upon installation. This is a fork of [anitomy-js](https://github.com/skiptirengu/anitomy-js) that uses cmake-js.
 
 ## Usage
 
